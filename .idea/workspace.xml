@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d871c99-4cc4-47f1-ae83-7fe79ca7ab6c" name="Default" comment="" />
+    <list default="true" id="5d871c99-4cc4-47f1-ae83-7fe79ca7ab6c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +96,8 @@
       <file leaf-file-name="PageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="854">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="39" />
               <folding>
                 <element signature="e#1355#1356#0" expanded="true" />
                 <element signature="e#1390#1391#0" expanded="true" />
@@ -157,6 +159,9 @@
       <find>ok-frame</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/com/zhou/dao/UserMapper.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -210,10 +215,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fileupload.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/TestTime.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/component/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" />
       </list>
     </option>
   </component>
@@ -257,12 +262,12 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1100" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -602,15 +607,15 @@
       <workItem from="1531444545659" duration="48741000" />
       <workItem from="1531820173454" duration="3039000" />
       <workItem from="1531906120693" duration="487000" />
-      <workItem from="1532002986645" duration="66711000" />
+      <workItem from="1532002986645" duration="67748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118978000" />
+    <option name="totallyTimeSpent" value="120015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="10" y="0" width="1936" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -631,7 +636,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.35069075" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" />
@@ -1108,8 +1113,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="854">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="39" />
           <folding>
             <element signature="e#1355#1356#0" expanded="true" />
             <element signature="e#1390#1391#0" expanded="true" />
