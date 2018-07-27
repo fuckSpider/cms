@@ -23,16 +23,16 @@
 
 </body>
 <script>
-    layui.use('upload', function(){
+    layui.use(['upload','layer'], function(){
         var upload = layui.upload;
-
+        var layer = layui.layer;
         //执行实例
         var uploadInst = upload.render({
             elem: '#test1' //绑定元素
             ,url: '/file/upload' //上传接口
             ,done: function(res){
                 //上传完毕回调
-                console.log(res);
+                layer.msg(res.msg);
             }
             ,error: function(){
                 //请求异常回调
