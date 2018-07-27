@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.dao.PermissionMapper" >
+    <select id="findPermissionByRoleid" resultType="com.zhou.entity.Permission">
+        select id,url,permission,roleid,description,available,pid,field1
+        from permission
+        where id in (select permissionid from role_permission where role_permission.roleid=#{roleid})
+    </select>
+</mapper>

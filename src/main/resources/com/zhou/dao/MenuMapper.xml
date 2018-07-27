@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.dao.MenuMapper" >
+    <select id="getParentMenu" resultType="com.zhou.entity.Menu">
+      select id,name,url,pid,icon,visible,isparent
+      from menu
+      where pid=0 and visible=1
+    </select>
+    <select id="getChildMenus" resultType="com.zhou.entity.Menu">
+      select id,name,url,pid,icon,visible,isparent
+      from menu
+      where pid!=0 and visible=1
+    </select>
+
+    <select id="getChildMenusByPid" resultType="com.zhou.entity.Menu">
+      select id,name,url,pid,icon,visible,isparent
+      from menu
+      where pid=#{pid} and visible=1
+    </select>
+
+    <select id="getMenuByid" resultType="com.zhou.entity.Menu">
+      select id,name,url,pid,icon,visible,isparent
+      from menu
+      where id=#{id} and visible=1
+    </select>
+
+
+    <select id="getMenuByids" parameterType="list" resultType="com.zhou.entity.Menu">
+    select id,name,url,pid,icon,visible,isparent
+    from menu
+    where id in
+    <foreach collection="list" item="p" open="(" close=")" separator=",">
+        #{p}
+    </foreach>
+</select>
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+    <bean id="userRealm" class="com.zhou.shiro.realm.UserRealm"></bean>
+
+    <!-- 安全管理器 -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!-- 注入realm -->
+        <property name="realm" ref="userRealm"/>
+    </bean>
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/login" /> <!--没有登录的时候，跳转到这个页面-->
+        <property name="unauthorizedUrl" value="/nopermission" /> <!--当没有权限的时候，跳转到这个url-->
+
+        <property name="filterChainDefinitions">
+            <value>
+                /login = anon <!--可以不需要登录-->
+                /register = anon <!--可以不需要登录-->
+                /normal/* = authc, perms[normal:*]  <!-- perms 表示需要该权限才能访问的页面 -->
+                /system/* = authc, perms[system:*]
+                <!--/author/* = authc, perms[author:*]-->
+                /logout = logout
+                /* = authc <!-- authc 表示需要认证才能访问的页面 -->
+            </value>
+        </property>
+    </bean>
+
+</beans>
