@@ -61,6 +61,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int saveUser(User user) {
+        String username =user.getUsername();
+        User user1 = userMapper.findByUsername(username);
+        if(user1!=null){
+            return -1;
+        }
+
         //密码加盐加密
         user = PasswordUtil.generate(user);
         String uuid = UUID.randomUUID().toString().replaceAll("-","");

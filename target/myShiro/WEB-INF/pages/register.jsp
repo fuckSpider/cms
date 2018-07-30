@@ -15,12 +15,14 @@
                 <label class="layui-form-label">用户名</label>
                 <div class="layui-input-block">
                     <input type="text" name="username" lay-verify="required|title" required placeholder="请输入用户名" autocomplete="off" class="layui-input" id="username">
+                    <span id="username_text" style="color: red"></span>
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">密&emsp;码</label>
                 <div class="layui-input-block">
                     <input type="password" name="password" lay-verify="required|title" required placeholder="请输入密码" autocomplete="off" class="layui-input" id="password">
+                    <span id="password_text" style="color: red"></span>
                 </div>
             </div>
             <div>${message}</div>
@@ -34,9 +36,16 @@
         layui.use("layer",function(){
             var layer = layui.layer;
             $('#register_btn').on("click" ,function(){
-                alert(111);
                 var username= $('#username').val();
                 var password = $('#password').val();
+                if(username==null||username==""){
+                    $('#username_text').html("用户名为空");
+                    return;
+                }
+                if(password==null||password==""){
+                    $('#password_text').html("用户名为空");
+                    return;
+                }
                 $.ajax({
                     url:"/register",
                     type:"post",
@@ -47,7 +56,9 @@
                             setTimeout(function(){
                                 window.location.href=basePath+"/login";
                             },1500);
-                        }else{
+                        }else if(res.code==-1){
+                           $('#username_text').html(res.msg);
+                        } else{
                             layer.msg(res.msg);
                         }
                     }

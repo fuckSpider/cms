@@ -23,7 +23,11 @@ public class RegisterController {
         if(count==1){
             jsonObject.put("code",1);
             jsonObject.put("msg","注册成功");
-        }else{
+        } else if(count ==-1){
+            jsonObject.put("code",-1);
+            jsonObject.put("msg","用户名已被使用");
+        }
+        else{
             jsonObject.put("code",2);
             jsonObject.put("msg","注册失败,请联系管理员");
         }
