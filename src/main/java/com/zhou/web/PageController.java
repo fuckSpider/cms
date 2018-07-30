@@ -18,7 +18,7 @@ public class PageController {
         }
     }
 
-    @RequestMapping(value = "/register")
+    @RequestMapping(value = "/register",method = RequestMethod.GET)
     public String register(){
         return "pages/register";
     }

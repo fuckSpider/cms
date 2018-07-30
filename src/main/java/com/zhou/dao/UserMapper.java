@@ -8,5 +8,5 @@ public interface UserMapper {
     User findById(String id);
     User findByUsername(String username);
 
-    
+    int saveUser(User user);
 }

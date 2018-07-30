@@ -12,4 +12,6 @@ public interface UserService {
 
     List<Permission> findPermissionByUserid(String userid);
     List<Role> findRoleByUserid(String userid);
+
+    int saveUser(User user);
 }

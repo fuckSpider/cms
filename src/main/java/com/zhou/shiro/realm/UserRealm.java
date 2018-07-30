@@ -9,6 +9,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -55,13 +56,14 @@ public class UserRealm extends AuthorizingRealm {
         String username = (String) usernamePasswordToken.getPrincipal();
 
         User user =userService.findByUsername(username);
+        ByteSource credentialsSalt =ByteSource.Util.bytes(user.getSalt());
         if(user==null){
             throw new UnknownAccountException();
         }
         if(user.getLocked()==1){
             throw new LockedAccountException(); //帐号锁定
         }
-        AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(username,user.getPassword(),getName());
+        AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(username,user.getPassword(),credentialsSalt,getName());
         return authenticationInfo;
     }
 }

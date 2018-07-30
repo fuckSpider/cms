@@ -12,4 +12,12 @@
         from user
         where username = #{username}
     </select>
+
+    <insert id="saveUser" parameterType="com.zhou.entity.User">
+    insert into user (id, username, password,
+      salt, createtime, locked)
+    values (#{id,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+      #{salt,jdbcType=VARCHAR}, #{createtime,jdbcType=VARCHAR},
+      #{locked,jdbcType=BIT})
+    </insert>
 </mapper>
