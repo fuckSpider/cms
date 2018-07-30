@@ -6,7 +6,7 @@
     <title>后台主页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/include.jsp"/>
+    <jsp:include page="../include.jsp"/>
 
 </head>
 <body class="layui-layout-body">

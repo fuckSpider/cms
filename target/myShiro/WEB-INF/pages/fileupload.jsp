@@ -27,6 +27,7 @@
     </div>
 <!--普通文件上传结束-->
 
+<!--多文件上传开始-->
     <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px">
         <legend>常规使用:多文件上传</legend>
     </fieldset>
@@ -40,8 +41,9 @@
             </div>
         </blockquote>
     </div>
+<!--多文件上传结束-->
 
-
+<!--选完文件不自动上传开始-->
     <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px">
         <legend>选完文件后不自动上传</legend>
     </fieldset>
@@ -52,16 +54,41 @@
         <%--<span class="layui-inline layui-upload-choose"></span>--%>
         <button type="button" class="layui-btn" id="test4">上传文件</button>
     </div>
+<!--选完文件不自动上传结束-->
 
-
+<!--拖拽上传开始-->
     <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
         <legend>拖拽上传</legend>
     </fieldset>
 
-    <div class="layui-upload-drag" id="test10">
+    <div class="layui-upload-drag" id="test5">
         <i class="layui-icon"></i>
         <p>点击上传，或将文件拖拽到此处</p>
     </div>
+<!--拖拽上传结束-->
+
+<!--制作多文件列表开始-->
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>高级应用：制作一个多文件列表</legend>
+</fieldset>
+
+<div class="layui-upload">
+    <button type="button" class="layui-btn layui-btn-normal" id="testList">选择多文件</button>
+    <div class="layui-upload-list">
+        <table class="layui-table">
+            <thead>
+            <tr><th>文件名</th>
+                <th>大小</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr></thead>
+            <tbody id="demoList"></tbody>
+        </table>
+    </div>
+    <button type="button" class="layui-btn" id="testListAction">开始上传</button>
+</div>
+<!--制作多文件列表结束-->
+
 </body>
 <script>
     layui.use(['upload','layer'], function(){
@@ -103,8 +130,8 @@
                 });
             },
             done: function(res){
-            //上传完毕回调
-            layer.msg(res.msg);
+                //上传完毕回调
+                layer.msg(res.msg);
              }
 
         });
@@ -120,6 +147,17 @@
             }
 
         });
+
+        upload.render({
+            elem:'#test5' ,
+            url:'/file/upload',
+            done: function(res){
+                layer.msg(res.msg);
+            }
+        });
+
+
+
     });
 </script>
 </html>
