@@ -53,4 +53,7 @@ public class PageController {
         return "pages/fileupload";
     }
 
+    @RequestMapping(value = "/system/menu")
+    public String menu(){return "pages/menuManager";}
+
 }

@@ -26,11 +26,25 @@
 
 
     <select id="getMenuByids" parameterType="list" resultType="com.zhou.entity.Menu">
-    select id,name,url,pid,icon,visible,isparent
-    from menu
-    where id in
-    <foreach collection="list" item="p" open="(" close=")" separator=",">
-        #{p}
-    </foreach>
-</select>
+        select id,name,url,pid,icon,visible,isparent
+        from menu
+        where id in
+        <foreach collection="list" item="p" open="(" close=")" separator=",">
+            #{p}
+        </foreach>
+    </select>
+
+    <select id="getMenus" resultType="com.zhou.entity.Menu">
+        select id,name,url,pid,icon,visible,isparent
+        from menu
+    </select>
+
+    <select id="getMenus1" resultType="map">
+        select id,name,url,pid,visible,isparent
+        from menu
+    </select>
+
+    <select id="getcount" resultType="int">
+        select count(id) from menu
+    </select>
 </mapper>

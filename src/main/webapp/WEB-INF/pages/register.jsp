@@ -43,7 +43,7 @@
                     return;
                 }
                 if(password==null||password==""){
-                    $('#password_text').html("用户名为空");
+                    $('#password_text').html("password为空");
                     return;
                 }
                 $.ajax({

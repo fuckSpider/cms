@@ -11,4 +11,10 @@ public interface MenuService {
     List<Menu> getChildMenus();
 
     List<Map<String,Object>> getMenus();
+
+    List<Menu> getAllMenus();
+
+    List<Map<String,Object>> getAllMenus1();
+
+    int getcount();
 }

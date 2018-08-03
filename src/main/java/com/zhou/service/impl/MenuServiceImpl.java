@@ -65,4 +65,21 @@ public class MenuServiceImpl implements MenuService {
         }
         return result;
     }
+
+    @Override
+    public List<Menu> getAllMenus() {
+        return menuMapper.getMenus();
+    }
+
+    @Override
+    public List<Map<String, Object>> getAllMenus1() {
+        List<Map<String, Object>>  list = menuMapper.getMenus1();
+        System.out.println(list);
+        return list;
+    }
+
+    @Override
+    public int getcount() {
+        return menuMapper.getcount();
+    }
 }

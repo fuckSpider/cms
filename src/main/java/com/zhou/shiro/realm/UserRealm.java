@@ -44,7 +44,7 @@ public class UserRealm extends AuthorizingRealm {
 
 
     /**
-     * 用户登录认证过程
+     * 用户登录认证过程  这里可以优化--从session中取值
      * @param authenticationToken
      * @return
      * @throws AuthenticationException
