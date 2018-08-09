@@ -47,4 +47,9 @@
     <select id="getcount" resultType="int">
         select count(id) from menu
     </select>
+
+    <insert id="addMenu" parameterType="com.zhou.entity.Menu">
+        insert into menu (id,name,url,pid,visible,isparent)
+        values (#{id},#{name},#{url},#{pid},#{visible},#{isParent})
+    </insert>
 </mapper>

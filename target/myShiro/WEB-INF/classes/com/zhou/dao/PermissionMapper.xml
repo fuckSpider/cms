@@ -6,4 +6,10 @@
         from permission
         where id in (select permissionid from role_permission where role_permission.roleid=#{roleid})
     </select>
+
+    <insert id="addPermission" parameterType="com.zhou.entity.Permission">
+        insert into permission
+        (id,permission,description,available,pid)
+        values (#{id},#{permission},#{description},#{available},#{pid})
+    </insert>
 </mapper>

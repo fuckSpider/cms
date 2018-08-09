@@ -1,5 +1,6 @@
 package com.zhou.web;
 import com.alibaba.fastjson.JSONObject;
+import com.zhou.entity.Menu;
 import com.zhou.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,6 +35,17 @@ public class MenuController {
         jsonObject.put("code",0);
         jsonObject.put("msg","加载成功");
         return jsonObject;
+    }
+
+    @RequestMapping(value = "/addMenu")
+    @ResponseBody
+    public JSONObject getParent(Menu menu){
+       if(menu.getIsParent()==0){
+           return menuService.addChildMenu(menu);
+       }else{
+           return menuService.addParentMenu(menu);
+       }
+
     }
 
 }

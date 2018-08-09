@@ -44,6 +44,18 @@ public class FileController {
                 }
                 jsonObject.put("code",1);
                 jsonObject.put("msg","文件上传成功");
+            }else if (originalFilename.endsWith("xlsx")||originalFilename.endsWith("xls")){
+                String realPath = session.getServletContext().getRealPath("/")+"excel\\"+new Date().getTime()+"."+suffix;
+                //保存文件记录
+                fileMapper.insertFile(originalFilename,realPath);
+                File file = new File(realPath);
+                try {
+                    multipartFile.transferTo(file);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                jsonObject.put("code",1);
+                jsonObject.put("msg","文件上传成功");
             }else{
                 jsonObject.put("code",2);
                 jsonObject.put("msg","文件不匹配");

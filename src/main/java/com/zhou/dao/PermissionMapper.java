@@ -8,4 +8,6 @@ import java.util.List;
 @Component
 public interface PermissionMapper {
     List<Permission> findPermissionByRoleid(String roleid);
+
+    int addPermission(Permission permission);
 }

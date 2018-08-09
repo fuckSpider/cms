@@ -1,5 +1,6 @@
 package com.zhou.service;
 
+import com.alibaba.fastjson.JSONObject;
 import com.zhou.entity.Menu;
 
 import java.util.List;
@@ -17,4 +18,9 @@ public interface MenuService {
     List<Map<String,Object>> getAllMenus1();
 
     int getcount();
+
+    JSONObject addChildMenu(Menu menu);
+
+    JSONObject addParentMenu(Menu menu);
+
 }

@@ -1,24 +1,18 @@
 package com.zhou.service.impl;
 
-import com.zhou.dao.MenuMapper;
-import com.zhou.dao.PermissionMapper;
-import com.zhou.dao.RoleMapper;
-import com.zhou.dao.UserMapper;
-import com.zhou.entity.Menu;
-import com.zhou.entity.Permission;
-import com.zhou.entity.Role;
-import com.zhou.entity.User;
+import com.alibaba.fastjson.JSONObject;
+import com.zhou.dao.*;
+import com.zhou.entity.*;
 import com.zhou.service.MenuService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
+@Transactional
 @Service
 public class MenuServiceImpl implements MenuService {
     @Autowired
@@ -29,6 +23,9 @@ public class MenuServiceImpl implements MenuService {
     private RoleMapper roleMapper;
     @Autowired
     private PermissionMapper permissionMapper;
+    @Autowired
+    private RolePermissionMapper rolePermissionMapper;
+
     @Override
     public List<Menu> getParentMenu() {
         return menuMapper.getParentMenu();
@@ -74,12 +71,75 @@ public class MenuServiceImpl implements MenuService {
     @Override
     public List<Map<String, Object>> getAllMenus1() {
         List<Map<String, Object>>  list = menuMapper.getMenus1();
-        System.out.println(list);
         return list;
     }
 
     @Override
     public int getcount() {
         return menuMapper.getcount();
+    }
+
+    @Override
+    public JSONObject addChildMenu(Menu menu) {
+        JSONObject jsonObject = new JSONObject();
+        try{
+            String id = menu.getId();
+            id = id==null||"".equals(id)?UUID.randomUUID().toString().replaceAll("-",""):id;
+            menu.setId(id);
+            menuMapper.addMenu(menu);
+            jsonObject.put("code",1);
+            jsonObject.put("msg","新增菜单成功");
+        }catch (Exception e){
+            e.printStackTrace();
+            jsonObject.put("code",0);
+            jsonObject.put("msg","新增菜单失败请联系管理员!");
+        }
+        return jsonObject;
+    }
+
+    @Override
+    public JSONObject addParentMenu(Menu menu) {
+        JSONObject jsonObject = new JSONObject();
+
+        try {
+            //将菜单存入到menu表中
+            String id = menu.getId();
+            id = id == null || "".equals(id) ? UUID.randomUUID().toString().replaceAll("-",""): id;
+            menu.setId(id);
+            menuMapper.addMenu(menu);
+
+            //新建权限
+            Permission permission = new Permission();
+            String id2 = UUID.randomUUID().toString().replaceAll("-","");
+            permission.setId(id2);
+            permission.setPermission("normal:*");
+            permission.setDescription(menu.getName());
+            permission.setAvailable("1");
+            permission.setPid(id);
+            permissionMapper.addPermission(permission);
+
+            //给普通人员加上改权限
+            RolePermission rolePermission = new RolePermission();
+            String id3 = UUID.randomUUID().toString().replaceAll("-","");
+            rolePermission.setId(id3);
+            rolePermission.setRoleid("2");
+            rolePermission.setPermissionid(id2);
+            rolePermissionMapper.addRolePermission(rolePermission);
+
+            //给超级管理员也加上权限
+            String id4 = UUID.randomUUID().toString().replaceAll("-","");
+            rolePermission.setId(id4);
+            rolePermission.setRoleid("1");
+            rolePermissionMapper.addRolePermission(rolePermission);
+
+            jsonObject.put("code",1);
+            jsonObject.put("msg","新增菜单成功");
+        }catch (Exception e){
+            e.printStackTrace();
+            jsonObject.put("code",0);
+            jsonObject.put("msg","新增菜单失败请联系管理员!");
+        }
+        return jsonObject;
+
     }
 }

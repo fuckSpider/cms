@@ -8,7 +8,7 @@ public class Menu implements Serializable {
     private String url;
     private String pid;
     private String icon;
-    private Integer visiable;
+    private Integer visible;
     private Integer isParent;
 
     public Menu() {
@@ -22,7 +22,7 @@ public class Menu implements Serializable {
                 ", url='" + url + '\'' +
                 ", pid='" + pid + '\'' +
                 ", icon='" + icon + '\'' +
-                ", visiable=" + visiable +
+                ", visible=" + visible +
                 ", isParent=" + isParent +
                 '}';
     }
@@ -67,12 +67,12 @@ public class Menu implements Serializable {
         this.icon = icon;
     }
 
-    public Integer getVisiable() {
-        return visiable;
+    public Integer getVisible() {
+        return visible;
     }
 
-    public void setVisiable(Integer visiable) {
-        this.visiable = visiable;
+    public void setVisible(Integer visible) {
+        this.visible = visible;
     }
 
     public Integer getIsParent() {

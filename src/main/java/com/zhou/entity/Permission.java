@@ -8,7 +8,7 @@ public class Permission implements Serializable {
     private String permission;
     private Integer roleid;
     private String description;
-    private String avaliable;
+    private String available;
     private String pid;
     private String field1;
 
@@ -55,12 +55,12 @@ public class Permission implements Serializable {
         this.description = description;
     }
 
-    public String getAvaliable() {
-        return avaliable;
+    public String getAvailable() {
+        return available;
     }
 
-    public void setAvaliable(String avaliable) {
-        this.avaliable = avaliable;
+    public void setAvailable(String available) {
+        this.available = available;
     }
 
     public String getPid() {
@@ -77,19 +77,5 @@ public class Permission implements Serializable {
 
     public void setField1(String field1) {
         this.field1 = field1;
-    }
-
-    @Override
-    public String toString() {
-        return "Permission{" +
-                "id='" + id + '\'' +
-                ", url='" + url + '\'' +
-                ", permission='" + permission + '\'' +
-                ", roleid=" + roleid +
-                ", description='" + description + '\'' +
-                ", avaliable='" + avaliable + '\'' +
-                ", pid='" + pid + '\'' +
-                ", field1='" + field1 + '\'' +
-                '}';
     }
 }

@@ -21,5 +21,8 @@ public interface MenuMapper {
     List<Menu> getMenus();
 
     List<Map<String,Object>> getMenus1();
+
     int getcount();
+
+    int addMenu(Menu menu);
 }
