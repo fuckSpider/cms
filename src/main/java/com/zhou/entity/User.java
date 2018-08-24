@@ -1,10 +1,15 @@
 package com.zhou.entity;
 
+import com.zhou.annotation.Excel;
+
 import java.io.Serializable;
 
 public class User implements Serializable {
+
     private String id;
+    @Excel(name="用户名字")
     private String username;
+    @Excel(name="用户密码",prompt = "默认为123")
     private String password;
     private String salt;
     private String createtime;

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sites>
+    <site>
+        <name>百度</name>
+        <url>www.baidu.com</url>
+        <selector>111</selector>
+    </site>
+</sites>

@@ -7,52 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d871c99-4cc4-47f1-ae83-7fe79ca7ab6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/dao/RolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/entity/RolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/zhou/dao/RolePermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/excel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/iframe/addmenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/annotation/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/cache/CacheListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/cache/CacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/cache/EntityCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/cache/ICacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/cache/TestCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/entity/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/Log4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/LogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/web/TestExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhou/web/test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jTest.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parserule.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/dao/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/dao/MenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/dao/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/dao/PermissionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/entity/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/entity/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/entity/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/web/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/web/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/web/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/web/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zhou/dao/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/zhou/dao/MenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zhou/dao/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/zhou/dao/PermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menuManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menuManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/dao/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/dao/MenuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/dao/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/dao/MenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/dao/PermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/dao/PermissionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/dao/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/dao/PermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/entity/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/entity/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/entity/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/entity/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/service/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/web/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/web/FileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/web/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/web/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/web/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/web/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhou/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhou/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myShiro.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/MenuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/MenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/PermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/PermissionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/dao/PermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/entity/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/entity/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/entity/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/entity/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/service/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/web/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/web/FileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/web/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/web/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/web/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/web/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/spring/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/com/zhou/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/myShiro/WEB-INF/classes/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,11 +64,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/impl/MenuServiceImpl.java">
+      <file leaf-file-name="Excel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/annotation/Excel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="190">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +88,8 @@
       <file leaf-file-name="ExcelUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="7258">
+              <caret line="420" column="28" selection-start-line="420" selection-start-column="28" selection-end-line="420" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,68 +97,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Row.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.9/poi-3.9.jar!/org/apache/poi/ss/usermodel/Row.class">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="89">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="AjaxResult.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/AjaxResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menuManager.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menuManager.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/MenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/MenuService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="-171">
+              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -180,9 +126,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="FxmlFile" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -195,6 +141,7 @@
       <find>.layui-footer</find>
       <find>layui-nav-child</find>
       <find>ok-frame</find>
+      <find>fields</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,24 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/nopermission.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/dao/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/zhou/dao/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/comm.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/TestTime.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/component/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/entity/File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/dao/FileMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/zhou/dao/FileMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/include.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fileupload.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/util/PasswordUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/dao/UserMapper.java" />
@@ -255,7 +184,25 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menuManager.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/service/impl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/parserule/parserule.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/parserule.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/util/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/util/LogTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4jTest.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/util/Log4jTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/entity/EntityCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/cache/EntityCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/cache/ICacheManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/cache/CacheManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/cache/CacheListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/cache/TestCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/entity/AjaxResult.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/web/TestExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/annotation/Excel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java" />
       </list>
     </option>
@@ -301,10 +248,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="925" />
-    <option name="y" value="87" />
+    <option name="x" value="24" />
+    <option name="y" value="117" />
     <option name="width" value="1940" />
-    <option name="height" value="1068" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -312,8 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,53 +299,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zhou" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhou" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhou" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhou" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhou" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhou" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
@@ -416,6 +315,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
@@ -449,11 +356,39 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myShiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myShiro" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,27 +396,28 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../akucun_supply/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\WEB-INF\pages\iframe" />
-      <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\WEB-INF\pages" />
-      <recent name="E:\java\ideaProjects\myShiro\sql" />
-      <recent name="E:\java\ideaProjects\myShiro\target\classes\mybatis" />
-      <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\ideaProjects\myShiro\target\classes" />
       <recent name="E:\java\ideaProjects\myShiro\target\myShiro" />
       <recent name="E:\java\ideaProjects\myShiro\src\main\resources\com\zhou\dao" />
       <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\image" />
       <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\ideaProjects\myShiro\src\main\java\com\zhou\web" />
+      <recent name="E:\java\ideaProjects\myShiro\src\main\resources" />
+      <recent name="E:\java\ideaProjects\myShiro\src\main\resources\parserule" />
+      <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\WEB-INF\pages\iframe" />
       <recent name="E:\java\ideaProjects\myShiro\src\main\webapp\WEB-INF\pages" />
     </key>
   </component>
@@ -498,19 +434,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.myShiro">
-    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhou.entity.Menu" />
-      <module name="myShiro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhou.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RedisJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhou.util.RedisJava" />
+    <configuration name="ExcelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhou.util.ExcelUtil" />
       <module name="myShiro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -520,30 +445,100 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhou.web.TestTime" />
-      <module name="myShiro" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestCache.testCacheManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myShiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhou.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zhou.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.zhou.cache.TestCache" />
+      <option name="METHOD_NAME" value="testCacheManager" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestExcel.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myShiro" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhou.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zhou.web" />
+      <option name="MAIN_CLASS_NAME" value="com.zhou.web.TestExcel" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhou.service.impl.UserServiceImpl" />
+    <configuration name="TestExcel.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myShiro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhou.service.impl.*" />
+          <option name="PATTERN" value="com.zhou.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zhou.web" />
+      <option name="MAIN_CLASS_NAME" value="com.zhou.web.TestExcel" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="TestExcel.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myShiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhou.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zhou.web" />
+      <option name="MAIN_CLASS_NAME" value="com.zhou.web.TestExcel" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -660,17 +655,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.myShiro" />
-      <item itemvalue="Application.RedisJava" />
-      <item itemvalue="Application.Menu" />
-      <item itemvalue="Application.TestTime" />
-      <item itemvalue="Application.UserServiceImpl" />
+      <item itemvalue="JUnit.TestExcel.test1" />
+      <item itemvalue="JUnit.TestExcel.test2" />
+      <item itemvalue="JUnit.TestExcel.test3" />
+      <item itemvalue="JUnit.TestCache.testCacheManager" />
+      <item itemvalue="Application.ExcelUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserServiceImpl" />
-        <item itemvalue="Application.TestTime" />
-        <item itemvalue="Application.Menu" />
-        <item itemvalue="Application.RedisJava" />
+        <item itemvalue="Application.ExcelUtil" />
+        <item itemvalue="JUnit.TestCache.testCacheManager" />
+        <item itemvalue="JUnit.TestExcel.test2" />
+        <item itemvalue="JUnit.TestExcel.test1" />
+        <item itemvalue="JUnit.TestExcel.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -690,21 +687,57 @@
       <workItem from="1532002986645" duration="109376000" />
       <workItem from="1533029092478" duration="17248000" />
       <workItem from="1533260867633" duration="34873000" />
-      <workItem from="1533611440005" duration="29622000" />
+      <workItem from="1533611440005" duration="31154000" />
+      <workItem from="1533803576945" duration="35799000" />
+      <workItem from="1534933438730" duration="6765000" />
+      <workItem from="1535020980600" duration="136000" />
+      <workItem from="1535021197775" duration="6300000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestExcel_test2 - 2018.08.22 at 18h 27m 53s.xml">
+      <configuration name="TestExcel.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test2 - 2018.08.22 at 18h 28m 50s.xml">
+      <configuration name="TestExcel.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test3 - 2018.08.22 at 18h 38m 18s.xml">
+      <configuration name="TestExcel.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test3 - 2018.08.22 at 18h 39m 04s.xml">
+      <configuration name="TestExcel.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test1 - 2018.08.22 at 18h 43m 02s.xml">
+      <configuration name="TestExcel.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test2 - 2018.08.22 at 18h 49m 33s.xml">
+      <configuration name="TestExcel.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test2 - 2018.08.22 at 18h 50m 15s.xml">
+      <configuration name="TestExcel.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test1 - 2018.08.22 at 18h 52m 11s.xml">
+      <configuration name="TestExcel.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExcel_test2 - 2018.08.22 at 18h 54m 17s.xml">
+      <configuration name="TestExcel.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCache_testCacheManager - 2018.08.22 at 19h 28m 44s.xml">
+      <configuration name="TestCache.testCacheManager" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243386000" />
+    <option name="totallyTimeSpent" value="293918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-84" y="25" width="1940" height="1068" extended-state="0" />
+    <frame x="24" y="117" width="1940" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32897604" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.27589968" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32824427" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3304904" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
@@ -712,25 +745,25 @@
       <window_info id="Structure" order="6" sideWeight="0.09529553" side_tool="true" weight="0.18976545" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.2335845" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" sideWeight="0.49946696" visible="true" weight="0.32197803" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.29063508" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.28135222" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49946696" weight="0.30549452" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.33508402" />
-      <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.90470445" visible="true" weight="0.15957446" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3293348" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.90470445" visible="true" weight="0.19946809" />
       <window_info id="Web" order="4" sideWeight="0.07656968" side_tool="true" weight="0.24427083" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="2" weight="0.32952183" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32825205" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32723358" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -741,7 +774,7 @@
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Database Console" order="2" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.33575884" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49946696" visible="true" weight="0.30678147" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -750,25 +783,25 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.30501089" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3391494" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.28202367" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.90470445" visible="true" weight="0.16117021" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.90470445" visible="true" weight="0.18976545" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3304904" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info id="Web" order="4" sideWeight="0.07656968" side_tool="true" weight="0.24427083" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Structure" order="6" sideWeight="0.09529553" side_tool="true" visible="true" weight="0.18976545" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32897604" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.13825364" />
+      <window_info id="Structure" order="6" sideWeight="0.09529553" side_tool="true" weight="0.18976545" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32723358" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.270183" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +812,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -792,336 +825,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="531" selection-start-line="531" selection-end-line="531" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zhou/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/shiro/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/PasswordUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/ser/std/MapSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="556" column="40" lean-forward="true" selection-start-line="556" selection-start-column="40" selection-end-line="556" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/layui.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/iframe/addmenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="8" selection-start-line="67" selection-start-column="2" selection-end-line="85" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/include.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/dao/UserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/RolePermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/dao/RolePermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/dao/PermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/dao/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zhou/dao/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zhou/dao/RolePermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zhou/dao/PermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="71" lean-forward="true" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -1145,25 +848,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menuManager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="1406">
           <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
+        <state relative-caret-position="608">
           <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/MenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1174,24 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="532">
           <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1199,37 +881,277 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#4742#4743#0" expanded="true" />
-            <element signature="e#4776#4777#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.9/poi-3.9.jar!/org/apache/poi/ss/usermodel/Row.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1140">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/impl/MenuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="1653">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar!/org/apache/http/HttpEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar!/org/apache/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar!/org/apache/http/client/methods/CloseableHttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parserule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4jTest.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/shiro/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/RedisJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/LogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/Log4jTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4jTest.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/parserule.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4598">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="251" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.9/poi-3.9.jar!/org/apache/poi/ss/usermodel/Cell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="194" column="49" lean-forward="true" selection-start-line="194" selection-start-column="49" selection-end-line="194" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.0-RC1/junit-platform-commons-1.3.0-RC1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/web/TestExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/cache/EntityCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/cache/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/cache/ICacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/cache/TestCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/cache/CacheListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/annotation/Excel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.0-RC1/junit-jupiter-api-5.3.0-RC1.jar!/org/junit/jupiter/api/condition/OS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7258">
+          <caret line="420" column="28" selection-start-line="420" selection-start-column="28" selection-end-line="420" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/entity/AjaxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
