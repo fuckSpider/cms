@@ -93,6 +93,7 @@ public class ExcelUtil<T>
             {
                 // 从第2行开始取数据,默认第一行是表头.
                 Row row = sheet.getRow(i);
+                //获取一行所有的单元格的数量
                 int cellNum = sheet.getRow(0).getPhysicalNumberOfCells();
                 T entity = null;
                 for (int j = 0; j < cellNum; j++)

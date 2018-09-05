@@ -35,6 +35,7 @@
             <value>
                 /login = anon <!--可以不需要登录-->
                 /register = anon <!--可以不需要登录-->
+                /getCode =anon
                 <!--/normal/* = authc, perms[normal:*]  &lt;!&ndash; perms 表示需要该权限才能访问的页面 &ndash;&gt;-->
                 /system/* = authc, perms[system:*]
                 <!--/author/* = authc, perms[author:*]-->

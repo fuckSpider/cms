@@ -52,15 +52,14 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         //获取到输入的用户名
-        UsernamePasswordToken usernamePasswordToken =(UsernamePasswordToken) authenticationToken;
+        UsernamePasswordToken usernamePasswordToken = (UsernamePasswordToken) authenticationToken;
         String username = (String) usernamePasswordToken.getPrincipal();
-
-        User user =userService.findByUsername(username);
-        ByteSource credentialsSalt =ByteSource.Util.bytes(user.getSalt());
-        if(user==null){
+        User user = userService.findByUsername(username);
+        ByteSource credentialsSalt = ByteSource.Util.bytes(user.getSalt());
+        if(user == null){
             throw new UnknownAccountException();
         }
-        if(user.getLocked()==1){
+        if(user.getLocked() == 1){
             throw new LockedAccountException(); //帐号锁定
         }
         AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(username,user.getPassword(),credentialsSalt,getName());
